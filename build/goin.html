@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="css/main.css?v=1552191295121">
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<div class="header__top pink-l"><a class="header__box" href="goin.html">
+						<svg class="header__svg">
+							<use xlink:href="images/sprites.svg#people"></use>
+						</svg><span>Вход</span></a><a class="header__box" href="registration.html">
+						<svg class="header__svg">
+							<use xlink:href="images/sprites.svg#people-plus"></use>
+						</svg><span>Регистрация</span></a></div><a class="header__logo pink-d" href="/"><img src="images/logo.png" alt="смс знакомства без регистрации в Иркутске" title="Доска объявлений, знакомства по смс, досуг"></a>
+			</header>
+			<div class="info-block pink-l">
+				<h1>Личный кабинет</h1>
+			</div>
+			<form class="goin" id="js-form">
+				<div class="goin__title">Вход</div>
+				<div class="goin__subtitle">Введите номер телефона и пароль</div>
+				<input class="input-phone" placeholder="Номер телефона" type="text" name="phone" required>
+				<input type="password" placeholder="Пароль" name="password" required>
+				<label class="goin__capcha capcha"><span>Проверочный код</span>
+					<input type="text" placeholder="3 + 6 = ?" name="capcha" required>
+				</label>
+				<button class="btn btn-disabled">Войти</button>
+			</form>
+			<div class="title-foot"><a class="btn btn-default btn-xs btn-default" href="/">На главную</a></div>
+			<footer class="footer">
+				<div class="footer-top pink-l">
+					<div class="footer-top__box">Сейчас на сайте&#160;<span id="count-people">203</span>&#160;посетителей</div>
+					<div class="footer-top__box">Администратор:&#160;<a class="footer-top__link" href="mailto:info@irksms.ru">info@irkutsksms.ru</a></div>
+				</div>
+				<div class="footer-copy pink-d">© 2012-2018 Знакомства в Иркутске | Объявления по смс</div>
+			</footer>
+		</div>
+		<script src="js/vendor.js?v=1552191295121"></script>
+		<script src="js/main.js?v=1552191295121"></script>
+	</body>
+</html>

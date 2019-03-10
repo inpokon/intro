@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="css/main.css?v=1552191294612">
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<div class="header__top pink-l"><a class="header__box" href="goin.html">
+						<svg class="header__svg">
+							<use xlink:href="images/sprites.svg#people"></use>
+						</svg><span>Вход</span></a><a class="header__box" href="registration.html">
+						<svg class="header__svg">
+							<use xlink:href="images/sprites.svg#people-plus"></use>
+						</svg><span>Регистрация</span></a></div><a class="header__logo pink-d" href="/"><img src="images/logo.png" alt="смс знакомства без регистрации в Иркутске" title="Доска объявлений, знакомства по смс, досуг"></a>
+			</header>
+			<div class="title-foot orange"><a class="btn btn-default btn-xs pull-right" role="button" href="/">На главную</a></div>
+			<div class="title pink-d">Добавить объявление в рубрику Досуг в Иркутске</div>
+			<div class="cheap-payment__box">
+				<div class="cheap-payment__wrap">
+					<form class="cheap-payment__form" id="js-form">
+						<label class="cheap-payment__label"><span>Телефон с которого хотите оплатить</span>
+							<input class="cheap-payment__input input-phone" type="text" placeholder="+7 (999) 999-99-99" name="phone" required>
+						</label>
+						<div class="cheap-payment__block">
+							<label class="cheap-payment__radio-label">
+								<input type="radio" name="myCheckbox" checked="checked"><span>Обычное (20р.)</span>
+							</label>
+							<label class="cheap-payment__radio-label">
+								<input type="radio" name="myCheckbox"><span><img src="images/vip2.png" alt="vip">Vip (85р.)</span>
+							</label>
+						</div>
+						<label class="cheap-payment__textarea"><span>Текст объявления</span>
+							<textarea name="myTextarea" placeholder="Ваше сообщение тут" cols="30" rows="15" required></textarea>
+							<div class="cheap-payment__col-texarea"><span class="bold">Смс:&#160;</span><span id="col-sms">1</span>&#160;/&#160;<span id="col-txt">70</span></div>
+						</label>
+						<div class="cheap-payment__price"><span class="bold">Цена:&nbsp;</span><span id="col-rub">20</span>&nbsp;руб.</div>
+						<label class="cheap-payment__capcha capcha"><span class="bold">Капча:</span>
+							<input type="text" placeholder="0 + 7 = ?" name="capcha" required>
+						</label>
+						<button class="cheap-payment__btn btn btn-disabled">Отправить!</button>
+					</form>
+				</div>
+			</div>
+			<div class="cheap-payment__box">
+				<div class="cheap-payment__wrap">
+					<ul class="tabs__caption">
+						<li class="megafon"></li>
+						<li class="mts"></li>
+						<li class="tele2"></li>
+						<li class="beeline"></li>
+					</ul>
+					<div class="tabs__item tabs__item--megafon tabs__item--active">
+						<div class="tabs__content">
+							<p class="tabs__par-top">Требования для абонентов: МЕГАФОН</p>
+							<p class="tabs__par">Минимальная сумма одного Платежа -<br>1 руб.<br>Минимальная сумма остатка после оплаты -<br>10 руб.<br>Максимальная сумма одного Платежа -<br>15 000 руб.<br>Максимальная сумма Платежей в сутки -<br>40 000 руб.<br>Максимальная сумма Платежей в месяц -<br>40 000 руб.<br>Комиссия с абонента 0%.</p>
+							<p class="tabs__par-center bold">Короткий номер для подтверждения платежей 1170ХХХ</p>
+							<p class="tabs__par">Абонент не вправе осуществить Платеж за счет денежных средств, зачисленных на Лицевой счет в виде скидок на услуги связи Оператора или полученных от Абонентов Оператора в рамках услуги Мобильный перевод, а также за счет авансового платежа, вносимого Абонентом при заключении договора об оказании услуг связи с Оператором.</p><br>
+							<hr><a href="files/oferta_m_platezhi.pdf" target="_blank">ОФЕРТА МЕГАФОН</a>
+							<hr>
+						</div>
+					</div>
+					<div class="tabs__item tabs__item--mts">
+						<div class="tabs__content">
+							<p class="tabs__par-top">Требования для абонентов: МТС</p>
+							<p class="tabs__par">Минимальная сумма одного Платежа - 10 руб.<br>С каждого успешного платежа МТС взимает с абонента комиссию в размере 10 рублей (в том числе НДС)<br>Неснижаемый остаток на лицевом счете после совершения оплаты - 10 руб.<br>Для абонентов Санкт-Петербурга и Ленинградской области - 20 руб.<br><br>Максимальная сумма платежа:<br><br>1 000 - для услуг мобильной связи и Yota<br>5 000 - для остальных услуг и категорий<br>Максимальное число платежей в сутки: 10 или не более 50 месяц.<br>Максимальная сумма платежей в сутки: 5000 руб. или не более 40 000 руб. в месяц.<br><br><span>Короткий номер для подтверждения платежей 6996</span><br><br>На вашем номере обслуживания должны отсутствовать опции "Запрет возврата части аванса" и/или "Запрет передачи данных третьим лицам информации об абоненте"<br>Невозможно использовать кредитные и бонусные средства, а также средства, начисленные по рекламным акциям, скидки, на услуги связи, предоставленные МТС, скидку на первоначальный объем услуг, предоставляемую при заключении договора (покупке комплекта) и т.п.<br><br>Сервис доступен только физическим лицам, платежи с корпоративных тарифов не разрешены.</p>
+						</div>
+					</div>
+					<div class="tabs__item tabs__item--tele2">
+						<div class="tabs__content">
+							<p class="tabs__par-top">Требования для абонентов: Теле2</p>
+							<p class="tabs__par">Минимальная сумма одного Платежа - 10 руб.<br>Неснижаемый остаток на лицевом счете после совершения оплаты - 10 руб.<br>Для абонентов Санкт-Петербурга и Ленинградской области - 20 руб.<br><br>Максимальная сумма платежа:<br><br>1 000 - для услуг мобильной связи и Yota<br>5 000 - для остальных услуг и категорий<br>Максимальное число платежей в сутки: 10 или не более 50 месяц.<br>Максимальная сумма платежей в сутки: 5000 руб. или не более 40 000 руб. в месяц.<br><br><span>Короткий номер для подтверждения платежей 312</span><br><br>Невозможно использовать кредитные и бонусные средства, а также средства, начисленные по рекламным акциям, скидки, на услуги связи, предоставленные Tele2, скидку на первоначальный объем услуг, предоставляемую при заключении договора (покупке комплекта) и т.п.<br><br>Сервис доступен только физическим лицам, платежи с корпоративных тарифов не разрешены.</p>
+						</div>
+					</div>
+					<div class="tabs__item tabs__item--beeline">
+						<div class="tabs__content">
+							<p class="tabs__par-top">Требования для абонентов: Билайн</p>
+							<p class="tabs__par">Минимальная сумма одного Платежа - 10 руб.<br>Максимальная сумма одного Платежа - 5 000 руб.<br>Максимальная сумма платежей за день - 15 000 руб.<br>Максимальная сумма платежей в неделю - 40 000 руб.<br>Максимальная сумма платежей в месяц 40.000 руб., максимум 50 транзакций.<br>После списания суммы покупки на счете должно остаться не менее 50 руб. (для абонентов предоплатной системы расчетов).<br><br><span>Короткий номер для подтверждения платежей 8464</span><br><br>Услуга доступна для абонентов тарифных планов любой системы расчетов, кроме линейки тарифов «Простая логика», «Правильный», а также абонентов, у которых подключены услуги «Безлимит внутри сети» или «Безумные дни».<br>Обращаем ваше внимание, что лимиты платежей в Билайн могут меняться в зависимости от типа предоставляемых услуг.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="title-foot"><a class="btn btn-default btn-xs pull-right" role="button" href="/">На главную</a></div>
+			<footer class="footer">
+				<div class="footer-top pink-l">
+					<div class="footer-top__box">Сейчас на сайте&#160;<span id="count-people">203</span>&#160;посетителей</div>
+					<div class="footer-top__box">Администратор:&#160;<a class="footer-top__link" href="mailto:info@irksms.ru">info@irkutsksms.ru</a></div>
+				</div>
+				<div class="footer-copy pink-d">© 2012-2018 Знакомства в Иркутске | Объявления по смс</div>
+			</footer>
+		</div>
+		<script src="js/vendor.js?v=1552191294612"></script>
+		<script src="js/main.js?v=1552191294612"></script>
+	</body>
+</html>
