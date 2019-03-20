@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="css/main.css?v=1553090206959">
+	</head>
+	<body>
+		<div class="container">
+			<header class="header header--account">
+				<div class="header__top pink-l"><a class="header__box" href="account.html">
+						<svg class="accaunt-people">
+							<use xlink:href="images/sprites.svg#accaunt-people"></use>
+						</svg><span>8-908-669-19-69</span></a><a class="header__box" href="account-price.html"><span>0</span>
+						<svg class="svg-rub">
+							<use xlink:href="images/sprites.svg#rub"></use>
+						</svg><span>Пополнить</span></a><a class="header__box" href="account.html"><span>Мои объявления</span></a><a class="header__box" href="#"><span>Выйти</span></a></div><a class="header__logo pink-d" href="/"><img src="images/logo.png" alt="смс знакомства без регистрации в Иркутске" title="Доска объявлений, знакомства по смс, досуг"></a>
+			</header>
+			<div class="account">
+				<h1 class="account__title">Личный кабинет</h1>
+				<h2 class="account-price">
+					<div class="account__title">Пополнить баланс</div>
+					<div class="account__desc">Введите сумму для пополнения счета</div>
+					<form class="account-price__form" id="js-form">
+						<div class="account-price__form-wrap">
+							<input placeholder="Сумма" name="sum">
+							<button class="account-price__btn cheap-payment__btn btn btn-disabled">Пополнить</button>
+						</div>
+						<label class="cheap-payment__capcha capcha">
+							<input type="text" placeholder="0 + 7 = ?" name="capcha" required><span>Проверочный код</span>
+						</label>
+						<div class="account-price__txt">Способ оплаты
+							<label class="cheap-payment__radio-label">
+								<input type="radio" name="oplata"><span>C телефона</span>
+							</label>
+							<label class="cheap-payment__radio-label">
+								<input type="radio" name="oplata" checked="checked"><span>C лицевого счета QIWI</span>
+							</label>
+							<label class="cheap-payment__radio-label">
+								<input type="radio" name="oplata" checked="checked"><span>C банковской карты</span>
+							</label>
+						</div>
+					</form>
+					<div class="account-price__img"><img src="images/mastercard.png" alt="mastercard"><img src="images/visa.png" alt="visa"><img src="images/qiwi.png" alt="qiwi"></div>
+				</h2>
+			</div>
+			<div class="title-foot"><a class="btn btn-default btn-xs pull-right" role="button" href="/">На главную</a></div>
+			<footer class="footer">
+				<div class="footer-top pink-l">
+					<div class="footer-top__box">Сейчас на сайте&#160;<span id="count-people">203</span>&#160;посетителей</div>
+					<div class="footer-top__box">Администратор:&#160;<a class="footer-top__link" href="mailto:info@irksms.ru">info@irkutsksms.ru</a></div>
+				</div>
+				<div class="footer-copy pink-d">© 2012-2018 Знакомства в Иркутске | Объявления по смс</div>
+			</footer>
+		</div>
+		<script src="js/vendor.js?v=1553090206960"></script>
+		<script src="js/main.js?v=1553090206960"></script>
+	</body>
+</html>

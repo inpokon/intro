@@ -190,6 +190,7 @@ $(document).ready(function () {
   $('.capcha input').attr('placeholder', '' + numOne + ' + ' + numTwo + ' = ?');
   valid("#js-form");
   activeBtn('#js-form', $('#js-form'));
+  clickAccount();
 });
 
 function valid(form) {
@@ -295,6 +296,13 @@ function activeBtn(modal, forma) {
   });
   input.one('change', function () {
     proverka();
+  });
+}
+
+function clickAccount() {
+  $('#js-btn-account').on('click', function (e) {
+    e.preventDefault();
+    $('.cheap-payment__wrap').toggleClass('cheap-payment__wrap--active');
   });
 }
 
